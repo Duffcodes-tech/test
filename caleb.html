@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floar</title>
+    <link rel="stylesheet" href="column.css">
+    <style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: 1.5rem "Nunito", sans-serif;
+    
+}
+header,
+    footer {
+    position: sticky;
+    background-color: #333;
+    color: whitesmoke;
+    text-align: center;
+}
+
+header {
+    top: 0;
+}
+
+nav a, 
+nav:visted {
+    color: #000;
+}
+
+nav a:hover, nav a:focus {
+    color: hsla(0,0%, 20%, 0.6);
+}
+nav {
+    background-color: #fff;
+    padding: 0.5rem;
+    border: 2px solid #000;
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.block {
+    width: 30vw;
+    height: 30vw;
+    background-color: #000;
+    color: whitesmoke;
+    padding: 1rem;
+
+}
+
+.left {
+    float: left;
+    margin-right: 1rem;
+}
+
+.right {
+    float: right;
+    margin-left: 1rem;
+}
+
+.clear {
+    clear: both;
+}
+
+main {
+    padding-top: 1;
+}
+
+section {
+ background-color: bisque;
+ border: 1px solid #333;
+ padding: 1rem;   
+ display: flow-root;
+ /* overflow: auto; old method*/
+}
+    </style>
+    
+</head>
+<body>
+    
+    <header>
+        <h1>CALEB DUFF</h1>
+        <nav>
+            <a href="PROFILE.html">Home</a>
+        <a href="/PROFILE.html#profile4">Joshua</a>
+        <a href="/PROFILE.html#profile5">Comfort</a>
+        <a href="/PROFILE.html#profile2">Price</a>
+        <a href="/PROFILE.html#profile3">Beulah</a>
+        <a href="/PROFILE.html#profile3">Diong</a>
+        </nav>
+    </header>
+    
+    <main>
+    <div class="block left">
+        <img src="Bro... Caleb.jpg" alt="fix" width="100%">
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet non doloribus quae corporis ex a atque tempora! Quam, sequi laborum.</p>
+
+
+     <p>Error hic, deserunt optio expedita architecto nobis sint quisquam, quo eaque autem iste officiis dignissimos! Facere deleniti ut molestiae mollitia?</p>
+    <p>Tenetur, odit cupiditate distinctio quam esse nesciunt repudiandae ad eveniet, iure numquam laudantium voluptate quisquam, sapiente rem consequatur. Temporibus, consectetur!</p>
+     <div class="block right">
+        <img src="profile1.jpg" alt="fix" width="100%">
+     </div>
+    <p>Voluptates earum illum, provident in itaque ducimus reprehenderit repudiandae quia quo quibusdam saepe exercitationem, doloremque officia nulla sequi magnam! Architecto?</p>
+    <p>Temporibus perspiciatis delectus asperiores deserunt molestias. Deserunt dolorum minus a voluptate quo, quas laudantium, delectus quisquam maxime architecto, dignissimos ullam?</p>
+</main>
+</body>
+</html>
